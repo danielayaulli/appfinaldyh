@@ -10,8 +10,6 @@ import time
 # CONFIGURACIÓN
 # =======================
 
-mongodb+srv://dfyaullih_db_user:<db_password>@clusterdyaullih.8sjn3ty.mongodb.net/
-
 GOOGLE_API_KEY = "AIzaSyBNGgTUdiQBoe4Ioi6zabg0zL-4_5D2msE"
 MONGODB_URI = "mongodb+srv://dfyaullih_db_user:<db_password>@clusterdyaullih.8sjn3ty.mongodb.net/" 
 COHERE_API_KEY = "1aMEJnRCYsstmykoabmXG5pPG0NZXnyIU7Ajx9Dg"
@@ -193,3 +191,4 @@ for msg in st.session_state.historial:
         st.chat_message("user").write(msg["texto"])
     else:
         st.chat_message("assistant").write(msg["texto"])
+
