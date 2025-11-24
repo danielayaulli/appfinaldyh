@@ -11,7 +11,7 @@ import time
 # =======================
 
 GOOGLE_API_KEY = "AIzaSyBNGgTUdiQBoe4Ioi6zabg0zL-4_5D2msE"
-MONGODB_URI = "mongodb+srv://dfyaullih_db_user:dfyaullih_db_user@clusterdyaullih.8sjn3ty.mongodb.net/" 
+MONGODB_URI = "mongodb+srv://dfyaullih_db_user:UP2025@clusterdyaullih.8sjn3ty.mongodb.net/" 
 COHERE_API_KEY = "1aMEJnRCYsstmykoabmXG5pPG0NZXnyIU7Ajx9Dg"
 
 USER = "Daniela Yaulli Herrera"
@@ -191,6 +191,7 @@ for msg in st.session_state.historial:
         st.chat_message("user").write(msg["texto"])
     else:
         st.chat_message("assistant").write(msg["texto"])
+
 
 
 
